@@ -1,0 +1,28 @@
+git init
+notepad index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Git Project</title>
+</head>
+<body>
+    <h1>Welcome to Git</h1>
+    <p>This is my first Git repository.</p>
+</body>
+</html>
+notepad index.html
+git add index.html
+git commit -m "Second commit - Update heading"
+notepad index.html
+git add index.html
+git commit -m "Third commit - Update paragraph"
+git log
+git log --oneline
+git reset --hard HEAD~1
+git log --oneline
+git branch -M main
+git remote add origin https://github.com/USERNAME/Git-Practical.git
+git push -u origin main
+git status
+git log --oneline
+git remote -v
